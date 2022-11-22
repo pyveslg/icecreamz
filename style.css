@@ -1,0 +1,137 @@
+ /* General classes for page */
+body {
+  background-image: url("../images/grid.jpg");
+  font-family: 'Open Sans';
+  margin: 0;
+  font-weight: 300;
+  color: #444444;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+
+/* Banner */
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('images/background/background.jpg');
+  padding: 80px;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  color: white;
+}
+
+.banner img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  background-color: #514B73;
+  border-radius: 50%;
+}
+
+.banner h1 {
+  font-size: 48px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  font-weight: normal;
+}
+
+.banner p {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+}
+
+.banner p > span {
+  background: rgba(81, 75, 115, .4);
+  padding: 0.2em;
+  border-radius: 4px;
+}
+
+.btn-yellow {
+  text-decoration: none;
+  color: #586E72;
+  background-color: #FAF27B;
+  padding: 16px 24px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-yellow:hover {
+  background-color: #514B73;
+  color: #FAF27B;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.features-section {
+  text-align: center;
+  margin: 4em 0 2em;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4em 0;
+}
+
+.feature {
+  flex-basis: 250px;
+  background: white;
+  padding: 1em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px rgb(0,0,0,0.2);
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.feature img {
+  margin-bottom: 2em;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #222;
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+#footer h3 { font-weight: 300; }
+
+#footer a {
+  color: white;
+}
+
+#footer a:hover {
+  color: #FAF27B;
+}
+
+.social a {
+  font-size: 24px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+
+
