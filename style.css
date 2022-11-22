@@ -90,6 +90,16 @@ body {
   margin: 4em 0;
 }
 
+@media (max-width: 1050px) {
+  .features {
+    display: block;
+  }
+
+  .feature {
+    margin-bottom: 30px;
+  }
+}
+
 .feature {
   flex-basis: 250px;
   background: white;
